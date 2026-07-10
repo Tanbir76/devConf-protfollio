@@ -1,52 +1,102 @@
-*{
-    margin:0;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
+     font-family: "Inter", sans-serif;
+
+    
+
 }
-.container{
+
+.container {
     padding: 0px 10%;
 }
-.nav-logo{
+
+.nav-logo {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 15px;
     font-weight: bold;
-    padding: 20px 0px ;
+    padding: 20px 0px;
 
 }
-.nav-logo img{
+
+.nav-logo img {
     object-fit: cover;
     image-resolution: initial;
     height: 35px;
     width: 35px;
 }
-.nav-content{
-    display:flex;
+
+.nav-content {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-link-page ul{
+.nav-link-page ul {
     display: flex;
-    gap:35px;
+    gap: 35px;
     text-decoration: none;
 }
-.nav-link-page ul li{
+
+.nav-link-page ul li {
     list-style: none;
-        font-size: 15px;
-    
+    font-size: 15px;
+
 }
-.nav-link-page ul li a{
-        text-decoration: none;
-        color: black;
-    
+
+.nav-link-page ul li a {
+    text-decoration: none;
+    color: black;
+
 }
-.btn{
+
+.btn {
     padding: 10px 30px;
     border: none;
     background-color: #1D4ED8;
-    border-radius: 8px ;
+    border-radius: 8px;
     color: white;
-    font-size: 13px ;
+    font-size: 13px;
 }
+
 /* banner-section-style-here */
+
+.banner-container {
+    text-align: center;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.banner-container button{
+    margin-top: 300px;
+    font-size: 18px;
+    padding: 15px 40px ;
+}
+.banner-content{
+    margin-top: 16%;
+}
+
+.banner-content h3 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.banner-content p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ffffffb2;
+
+}
+/* speaker-profile-style-here */
