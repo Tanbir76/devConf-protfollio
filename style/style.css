@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    padding: 0px 10%;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px 0px ;
+
+}
+.nav-logo img{
+    object-fit: cover;
+    image-resolution: initial;
+    height: 35px;
+    width: 35px;
+}
+.nav-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link-page ul{
+    display: flex;
+    gap:35px;
+    text-decoration: none;
+}
+.nav-link-page ul li{
+    list-style: none;
+        font-size: 15px;
+    
+}
+.nav-link-page ul li a{
+        text-decoration: none;
+        color: black;
+    
+}
+.btn{
+    padding: 10px 30px;
+    border: none;
+    background-color: #1D4ED8;
+    border-radius: 8px ;
+    color: white;
+    font-size: 13px ;
+}
+/* banner-section-style-here */
