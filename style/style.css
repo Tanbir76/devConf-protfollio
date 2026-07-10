@@ -102,7 +102,7 @@
 }
 /* speaker-profile-style-here */
 .speakers-container{
-    margin-top: 150px ;
+    margin-top: 120px ;
 }
 .speaker-content-title{
     text-align: center;
@@ -174,10 +174,14 @@ font-size: 1rem;
 }
 .pricing-cards h4{
     font-size: 1rem;
+    margin-bottom: 8px;
     color: #191e2c7a;
 }
 .pricing-cards p{
     font-size: 0.9rem;
+    color: #191e2cdc;
+
+    margin-top: 4px;
     margin-bottom: 12px;
 }
 .cards-btn1{
@@ -188,6 +192,7 @@ font-size: 1rem;
     color: #1D4ED8;
     font-size: 13px;
     margin-top: 17px;
+    font-weight: bold;
 }
 .cards-btn2{
     padding: 3% 38%;
@@ -197,6 +202,7 @@ font-size: 1rem;
     color: white;
     font-size: 13px;
     margin-top: 17px;
+    font-weight: bold;
 }
 .cards-btn3{
      padding: 3% 38%;
@@ -204,6 +210,7 @@ font-size: 1rem;
     border-radius: 8px;
     font-size: 13px;
     margin-top: 17px;
+    font-weight: bold;
 }
 
 
@@ -216,7 +223,64 @@ font-size: 1rem;
 }
 .pro-style-card{
     background-color: #0D1B2A;
-    color: rgba(255, 255, 255, 0.904);
+    color: rgba(255, 255, 255, 0.89);
     box-shadow: 4px 4px 4px 4px rgba(56, 40, 38, 0.116);
 }
+.pro-style-card h4{
+    color: #1D4ED8;
+}
+.pro-style-card p{
+    color: rgba(240, 248, 255, 0.788);
+}
+/* schedul-section-style-here */
+.schedule-time-form{
+
+}
+
+ table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+    
+}
+th{
+    font-size: 1.2rem;
+
+}
+td{
+    font-size:1rem;
+}
+th,td{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  
+}
+
+
+/* footer-section-style-here */
+.footer-section{
+    margin-top: 150px;
+    padding: 20px 0px;
+    background-color: #122841fa;
+}
+.footer-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: cecter;
+    color: rgb(102, 81, 81);
+}
+.footer-link a{
+text-decoration: none;
+color: rgb(100, 79, 79);
+}
+
+.footer-link{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 
