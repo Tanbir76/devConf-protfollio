@@ -378,7 +378,7 @@ td {
     margin-top: 30px;
 }
 
-.footer-top {
+.footer-tops {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -417,7 +417,7 @@ td {
     border: none;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.15);
-    margin: 25px 0;
+    margin: 25px 0px;
 }
 
 .footer-bottom-text {
@@ -427,5 +427,4 @@ td {
 .footer-bottom-text p {
     font-size: 14px;
     color: #d1d5db79;
-    margin: 0;
 }
