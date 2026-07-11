@@ -410,13 +410,13 @@ td {
 }
 
 .social-links a:hover {
-    background: #3b82f6;
+    background-color: #3b82f6;
 }
 
 .footer hr {
     border: none;
     height: 1px;
-    background: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
     margin: 25px 0;
 }
 
@@ -426,6 +426,6 @@ td {
 
 .footer-bottom-text p {
     font-size: 14px;
-    color: #d1d5db;
+    color: #d1d5db79;
     margin: 0;
 }
